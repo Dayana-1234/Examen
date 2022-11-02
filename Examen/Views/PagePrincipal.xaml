@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Examen.Views.PagePrincipal">
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text=" contacto" x:Name="tooladd" Clicked="tooladd_Clicked" />
+        <ToolbarItem Text="Lista de contactos" x:Name="toollist" Clicked="toollist_Clicked" />
+    </ContentPage.ToolbarItems>
+    
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text=" Examen 1-Parcial"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
